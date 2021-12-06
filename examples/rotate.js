@@ -1,4 +1,4 @@
-const { Rotate } = require('../methods');
+const { Rotate } = require('effects-image.js');
 
 new Rotate()
     .setImage('./img/avatar.jpg')

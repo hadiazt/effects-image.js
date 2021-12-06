@@ -1,4 +1,4 @@
-const { Fisheye } = require('../methods');
+const { Fisheye } = require('effects-image.js');
 
 new Fisheye()
     .setImage('./img/avatar.jpg')

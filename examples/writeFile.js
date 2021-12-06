@@ -1,4 +1,4 @@
-const { Blur } = require('../methods');
+const { Blur } = require('effects-image.js');
 const { writeFile } = require('fs');
 
 new Blur()

@@ -1,4 +1,4 @@
-const { Invert } = require('../methods');
+const { Invert } = require('effects-image.js');
 
 new Invert()
     .setImage('./img/avatar.jpg')

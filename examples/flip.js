@@ -1,4 +1,4 @@
-const { Flip } = require('../methods');
+const { Flip } = require('effects-image.js');
 
 new Flip()
     .setImage('./img/avatar.jpg')

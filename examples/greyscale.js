@@ -1,4 +1,4 @@
-const { Greyscale } = require('../methods');
+const { Greyscale } = require('effects-image.js');
 
 new Greyscale()
     .setImage('./img/avatar.jpg')

@@ -1,4 +1,4 @@
-const { Normalize } = require('../methods');
+const { Normalize } = require('effects-image.js');
 
 new Normalize()
     .setImage('./img/avatar.jpg')

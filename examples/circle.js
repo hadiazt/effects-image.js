@@ -1,4 +1,4 @@
-const { Circle } = require('../methods');
+const { Circle } = require('effects-image.js');
 
 new Circle()
     .setImage('./img/avatar.jpg')

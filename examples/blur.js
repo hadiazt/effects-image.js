@@ -1,4 +1,4 @@
-const { Blur } = require('../methods');
+const { Blur } = require('effects-image.js');
 
 new Blur()
     .setImage('./img/avatar.jpg')

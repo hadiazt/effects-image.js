@@ -1,4 +1,4 @@
-const { Brightness } = require('../methods');
+const { Brightness } = require('effects-image.js');
 
 new Brightness()
     .setImage('./img/avatar.jpg')
