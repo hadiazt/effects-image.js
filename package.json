@@ -1,0 +1,27 @@
+{
+  "name": "effects-image.js",
+  "version": "1.0.0",
+  "description": "A simple module to add effects to your pictures",
+  "main": "methods.js",
+  "author": "hadi.az",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hadiazt/effect-image.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hadiazt/effect-image.js/issues"
+  },
+  "homepage": "https://github.com/hadiazt/effect-image.js#readme",
+  "keywords": [
+    "generation",
+    "manipulation",
+    "effects",
+    "discord",
+    "pictures",
+    "image"
+  ],
+  "dependencies": {
+    "jimp": "^0.16.1"
+  }
+}
