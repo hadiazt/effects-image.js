@@ -21,7 +21,7 @@ class Fisheye {
 
     async build() {
         this.res = await jimp.read(this.image);
-        this.res.fishEye();
+        this.res.fisheye();
 
         this.file ? await this.res.write(this.file) : null;
 
