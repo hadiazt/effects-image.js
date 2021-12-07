@@ -21,24 +21,10 @@ class Flip {
         return this;
     }
 
-    setFlipOption(x, y) {
-        const valueX = Boolean(x);
-        const valueY = Boolean(y);
-
-        if (!valueX || !valueY) {
-            console.log('setFlipOption() inputs must be like this\nsetFlipOption(true, true)\nsetFlipOption(false, false)\nsetFlipOption(true, false)\nsetFlipOption(false, true)\nBy default is setFlipOption(true, false) ');
-            return this;
-        }
-
-        this.x = x;
-        this.y = y;
-        return this;
-    }
-
     async build() {
         this.res = await jimp.read(this.image);
 
-        this.res.flip(Boolean(this.x), Boolean(this.y));
+        this.res.flip(true, false);
 
         this.file ? await this.res.write(this.file) : null;
 
