@@ -1,6 +1,6 @@
 {
   "name": "effects-image.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple module to add effects to your pictures",
   "main": "methods.js",
   "author": "hadi.az",
