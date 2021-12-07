@@ -19,7 +19,7 @@
 ### Add a blur filter to an image ? It's possible and easy !
 
 ```js
-const { Blur } = require('effect-image.js');
+const { Blur } = require('effects-image.js');
 
 new Blur()
     .setImage('./img.png')
@@ -37,7 +37,7 @@ new Blur({
 Simple Discord example (discord.js v13)
 
 ```js
-const { Blur } = require('effect-image.js');
+const { Blur } = require('effects-image.js');
 const { Client, Intents } = require('discord.js');
 
 const client = new Client({
